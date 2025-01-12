@@ -4,7 +4,7 @@ from tkinter import messagebox, Toplevel, Scrollbar, Frame, Entry, StringVar, La
 
 DB_HOST = "localhost"
 DB_USER = "root"  # Replace with your MySQL username
-DB_PASSWORD = "Acharya@1"  # Replace with your MySQL password
+DB_PASSWORD = "xyz"  # Replace with your MySQL password
 DB_DATABASE = "EventManagement"
 
 #1nf no composite, no multivalued attributes
@@ -48,7 +48,7 @@ def logintodb(head_id, login_cred):
         db = mysql.connector.connect(
             host="localhost",
             user="root",      # Replace with MySQL username
-            password="Acharya@1",  # Replace with MySQL password
+            password="xyz",  # Replace with MySQL password
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -257,7 +257,7 @@ def show_performance_details(performance_window, event_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -337,7 +337,7 @@ def show_performer_details(performance_name, event_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -482,7 +482,7 @@ def update_performer_window(performer_id):
             db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Acharya@1",
+                password="xyz",
                 database="EventManagement"
             )
             cursor = db.cursor()
@@ -514,7 +514,7 @@ def delete_performer(performer_id, performer_window, performance_name, event_id)
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -557,7 +557,7 @@ def add_performance_window(event_id):
             db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Acharya@1",
+                password="xyz",
                 database="EventManagement"
             )
             cursor = db.cursor()
@@ -616,7 +616,7 @@ def update_performance_window(performance_name):
             db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Acharya@1",
+                password="xyz",
                 database="EventManagement"
             )
             cursor = db.cursor()
@@ -660,7 +660,7 @@ def delete_performance(performance_name, performance_window,event_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -687,7 +687,7 @@ def verify_attendee(cursor, reg_id, email):
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Acharya@1",
+    password="xyz",
     database="eventmanagement"
 )
 cursor = conn.cursor()
@@ -944,7 +944,7 @@ def show_vendor_details(vendor_window, event_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1087,7 +1087,7 @@ def add_vendor(head_id, event_id, name, contact, services, fee, window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",  # Change to your actual password
+            password="xyz",  # Change to your actual password
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1140,7 +1140,7 @@ def update_vendor_window(vendor_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1203,7 +1203,7 @@ def update_vendor(vendor_id, name, contact, services, fee, event_id, window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1234,7 +1234,7 @@ def delete_vendor(vendor_id, vendor_window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1304,7 +1304,7 @@ def add_volunteer(event_id, name, age, gender, phone, head_id, task, window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1335,7 +1335,7 @@ def delete_volunteer(volunteer_id, voluntee_window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",      # Replace with MySQL username
-            password="Acharya@1",  # Replace with MySQL password
+            password="xyz",  # Replace with MySQL password
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1363,7 +1363,7 @@ def show_volunteer_details(voluntee_window, event_id):
         db = mysql.connector.connect(
             host="localhost",
             user="root",      # Replace with MySQL username
-            password="Acharya@1",  # Replace with MySQL password
+            password="xyz",  # Replace with MySQL password
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1467,7 +1467,7 @@ def update_volunteer_window(volunteer_id, voluntee_window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
@@ -1523,7 +1523,7 @@ def update_volunteer(volunteer_id, name, age, gender, phone, task, window):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Acharya@1",
+            password="xyz",
             database="EventManagement"
         )
         cursor = db.cursor()
