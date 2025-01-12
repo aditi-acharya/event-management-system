@@ -2,4 +2,4 @@
 
 Event-Management-System project done mainly as a DBMS course mini-project. 
 
-Used mysql for queries and as database and python tkinter for gui
+Used mysql for queries and database and python tkinter for gui
